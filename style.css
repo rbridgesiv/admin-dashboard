@@ -26,6 +26,20 @@ html {
     grid-row: 1 / 6;
 }
 
+.sidebar h3, li, img {
+    color:#edf5f5;
+}
+
+li {
+    margin: 1em 0 1em 1em;
+    list-style-type: none;
+}
+
+img {
+    height: 15px;
+    filter: invert(96%) sepia(9%) saturate(112%) hue-rotate(147deg) brightness(101%) contrast(92%);
+}
+
 .your-projects {
     background-color: red;
     grid-column: 2 / 5;
